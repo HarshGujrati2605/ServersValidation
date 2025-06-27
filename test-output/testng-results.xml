@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-27T10:14:42 IST" name="Suite" finished-at="2025-06-27T10:14:53 IST" duration-ms="11024">
+  <suite started-at="2025-06-27T17:29:39 IST" name="Default suite" finished-at="2025-06-27T17:29:44 IST" duration-ms="4992">
     <groups>
     </groups>
-    <test started-at="2025-06-27T10:14:42 IST" name="Test" finished-at="2025-06-27T10:14:53 IST" duration-ms="11024">
+    <test started-at="2025-06-27T17:29:39 IST" name="Default test" finished-at="2025-06-27T17:29:44 IST" duration-ms="4992">
       <class name="testlib.servervalidation.ServerResponsesValidation">
-        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T10:14:42 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T10:14:50 IST" duration-ms="7729" status="FAIL">
+        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T17:29:40 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T17:29:42 IST" duration-ms="1651" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateServer -->
-        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T10:14:50 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T10:14:51 IST" duration-ms="1208" status="PASS">
+        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T17:29:42 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T17:29:43 IST" duration-ms="1103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateServer -->
-        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T10:14:51 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T10:14:53 IST" duration-ms="1220" status="PASS">
+        <test-method signature="validateServer(java.lang.String)[pri:0, instance:testlib.servervalidation.ServerResponsesValidation@6e6f2380]" started-at="2025-06-27T17:29:43 IST" name="validateServer" data-provider="readDataFromExcel" finished-at="2025-06-27T17:29:44 IST" duration-ms="1321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,6 +79,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- validateServer -->
       </class> <!-- testlib.servervalidation.ServerResponsesValidation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

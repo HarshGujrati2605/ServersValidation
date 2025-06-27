@@ -28,12 +28,12 @@ public class ServerResponsesValidation {
 				.accept(ContentType.JSON).body(body).when().post().then()
 				.extract().response();
 
-         if(response.getStatusCode()>=500) {
+         if(response.getStatusCode()>=500 | response.getStatusCode()==404) {
         	 System.out.println("response code for the "+instanceurl+"  is "+response.getStatusCode()+"");
         	 throw new Exception("Server is down for "+instanceurl+"");
          }
          
-         else if(response.getStatusCode()>=200 | response.getStatusCode()<500) {
+         else if(response.getStatusCode()>=200 | response.getStatusCode()<500 | response.getStatusCode()!= 404) {
         	 
         	 System.out.println("response code for the "+instanceurl+"  is "+response.getStatusCode()+" and it is running fine");
         	 
